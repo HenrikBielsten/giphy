@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/HenrikBielsten/giphy/issues"
   },
-  "homepage": "https://github.com/HenrikBielsten/giphy#readme"
+  "homepage": "https://github.com/HenrikBielsten/giphy#readme",
+  "dependencies": {
+    "query-string": "^5.0.1"
+  }
 }
